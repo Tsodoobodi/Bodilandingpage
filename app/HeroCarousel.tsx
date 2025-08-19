@@ -9,6 +9,10 @@ const CAROUSEL_IMAGES = [
   "/images/build.png",
   "/images/bg2.jpg",
   "/images/bg3.jpg",
+  "/images/bg5.jpg",
+  "/images/bg6.jpg",
+  "/images/bg7.jpg",
+  "/images/bg8.jpg",
 ];
 
 export default function HeroCarousel() {
@@ -17,7 +21,7 @@ export default function HeroCarousel() {
   React.useEffect(() => {
     const timer = setInterval(() => {
       setCarouselIdx((prev) => (prev + 1) % CAROUSEL_IMAGES.length);
-    }, 5000);
+    }, 9000);
     return () => clearInterval(timer);
   }, []);
 
