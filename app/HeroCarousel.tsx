@@ -7,6 +7,8 @@ const CAROUSEL_IMAGES = [
   "/images/bg1.png",
   "/images/train.png",
   "/images/build.png",
+  "/images/bg2.jpg",
+  "/images/bg3.jpg",
 ];
 
 export default function HeroCarousel() {
