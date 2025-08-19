@@ -59,7 +59,6 @@ export default function About() {
   return (
     <div>
       <div className="max-w-screen-2xl mx-auto px-6 sm:px-8 py-16">
-        {/* Бидний тухай */}
         <div className="flex items-center gap-[15px]">
           <Image width={40} height={40} src="/images/logo.png" alt="About Us" />
           <h1 className="text-3xl font-bold text-center text-[#152b4c]">
@@ -71,7 +70,7 @@ export default function About() {
           санаачлагаар үүсгэн байгуулагдсан бөгөөд барилга, дэд бүтэц, уул
           уурхай, банк санхүү, хэвлэл мэдээлэл, хүнс, хөдөө аж ахуй зэрэг
           салбаруудад тэргүүлэгч бизнесүүдийн нэгдэл болох Бодь группийн тэргүүн
-          компани юм.
+          компани юм .
         </p>
         <p className="text-gray-700">
           Бидний эрхэм зорилго бол Монгол Улсын эдийн засгийн хөгжилд хувь
